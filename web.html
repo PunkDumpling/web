@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+	  background: #171d27
+    }
+    .navbar {
+		overflow: hidden;
+		background-color: #333;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.navbar a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.navbar a:hover {
+		background: #ddd;
+		color: black;
+	}
+	.topnav-right {
+		float: right;
+	}
+
+    .main {
+      padding: 16px;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+	  font-size: 20px
+    }
+	.bonus {
+	  padding: 16px;
+      margin-top: 50px;
+      display: grid;
+	  font-size: 20px
+	}
+    .section {
+      background-color: #f2e8c9;
+      padding: 20px;
+	  border-radius: 2%;
+	  border: none;
+    }
+	.small {
+	  width: 60%;
+	  height: auto; 
+	}
+	iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <div>
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div>
+    <a href="#search">Search</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="main">
+  <div id="home" class="section">
+    <h1>Home</h1>
+    <p>Добро пожаловать на наш сайт, созданный белками для всех любителей природы и лесных приключений! 
+	Здесь вы найдёте множество интересной информации и полезных ресурсов, чтобы лучше узнать мир вокруг нас. 
+	Взгляните на наше содержимое и начинайте своё путешествие вместе с нами!</p>
+	<img src="web/img.png" alt="Image">
+  </div>
+  <div id="news" class="section">
+    <h1>News</h1>
+    <p>Последние новости из мира белок и природы! Будьте в курсе всех событий, от инновационных проектов по сохранению окружающей среды до увлекательных историй о жизни наших лесных друзей. 
+	Наши белки-репортеры всегда готовы поделиться самыми свежими и интересными новостями.</p>
+	<img src="web/photos.png" class="small" alt="Image">
+  </div>
+  <div id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Мы всегда рады новым друзьям! Свяжитесь с нами по любым вопросам, предложениям или просто для того, чтобы сказать "Привет!". 
+	Наши белки-консультанты с радостью ответят на все ваши сообщения.
+	<p>- Email: info@squirrelnetwork.com</p>
+	<p>- Адрес: проспект Гагарина, д. 23</p>
+  </div>
+  <div id="search" class="section">
+    <h1>Search</h1>
+    <p>Найдите ближайший лес или парк с помощью нашей удобной карты! 
+	Отмеченные беличьи любимые места подскажут вам, где можно найти лучшие орехи или просто насладиться природой. 
+	Пусть ваши поиски будут увлекательными и полезными!
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4509325152756!2d44.00123831592544!3d56.32688778074852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415aad56e58c5b3b%3A0xb787c14a2c2d6ba!2sNizhny%20Novgorod%2C%20Russia!5e0!3m2!1sen!2s!4v1633118900576!5m2!1sen!2s"></iframe>
+</p>
+  </div>
+  
+ </div>
+ <div class="bonus">
+  <div id="about" class="section">
+    <h1>About</h1>
+    <p>Мы – команда энтузиастов, увлечённых природой и её обитателями. 
+	Наш сайт создан с любовью и заботой о каждом, кто хочет узнать больше о белках и лесной жизни. </p>
+  </div>
+ </div>
+</body>
+</html>  
